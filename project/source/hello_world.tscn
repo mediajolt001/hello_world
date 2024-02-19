@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bc63iot83k4q3"]
+[gd_scene load_steps=2 format=3 uid="uid://bc63iot83k4q3"]
+
+[ext_resource type="Texture2D" uid="uid://4r7wa3rbem7m" path="res://icon.svg" id="1_6geib"]
 
 [node name="hello_world" type="Control"]
 layout_mode = 3
@@ -15,3 +17,7 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Hello World"
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(46, -82)
+texture = ExtResource("1_6geib")
